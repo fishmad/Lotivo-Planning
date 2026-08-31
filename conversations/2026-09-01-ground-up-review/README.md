@@ -2,6 +2,10 @@
 
 This directory maps the substantive user-visible conversation to the offline reports produced from it.
 
+## Offline transcript
+
+The [user-visible conversation transcript](transcript.md) contains the ordered user messages and assistant messages reconstructed from the Codex task history. Raw tool calls, shell commands, hidden reasoning and tool output are excluded.
+
 ## Immutable source snapshot
 
 The original Codex conversation snapshot is:
@@ -10,7 +14,7 @@ The original Codex conversation snapshot is:
 
 The snapshot is immutable and does not update with later messages. It is an **anyone-with-the-link** URL. It is stored here only because this GitHub repository is private. Revoke the shared link through ChatGPT Data Controls if it should no longer be accessible.
 
-The offline reports remain usable without the snapshot. The snapshot is the closest preserved source for the exact user-visible ordering and wording; it does not include raw tool calls, shell commands or hidden tool output.
+The offline transcript and reports remain usable without the snapshot. The snapshot provides the original rendered presentation; it does not include raw tool calls, shell commands or hidden tool output.
 
 ## Conversation sequence
 
@@ -54,4 +58,4 @@ The user then authorised creation and publication of this separate private plann
 
 ## Preservation note
 
-The reports preserve the substantive answers as cleaned, reusable documents rather than duplicating progress messages and tool logs. Consult the immutable snapshot when exact conversational wording or ordering is required.
+The transcript preserves the user-visible conversation, while the reports reorganise the substantive answers into cleaned, reusable documents. Consult the immutable snapshot when the original rendered presentation is required.

@@ -11,7 +11,8 @@ The existing `fishmad/Lotivo` application repository was reviewed read-only. No 
 3. [Day-zero repository model](reports/03-day-zero-repository-model.md)
 4. [Component and milestone delivery map](reports/04-component-milestone-map.md)
 5. [Operational completeness checklist](reports/05-operational-completeness.md)
-6. [Conversation map and source snapshot](conversations/2026-09-01-ground-up-review/README.md)
+6. [User-visible conversation transcript](conversations/2026-09-01-ground-up-review/transcript.md)
+7. [Conversation map and source snapshot](conversations/2026-09-01-ground-up-review/README.md)
 
 ## Source context
 
